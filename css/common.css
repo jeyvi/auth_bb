@@ -1,0 +1,179 @@
+@media only screen and (min-width: 993px){
+main{
+    padding-left: 240px;
+}
+}
+
+@media only screen and (max-width: 993px){
+  
+    body ul.side-nav.fixed ul
+    {
+        margin-bottom: 50px;
+    }
+
+    body ul.side-nav.fixed li.logo {
+        position: fixed;
+        left: 10px;
+        z-index: 10;
+        bottom: 10px;
+        margin: 0;
+    }
+}
+
+#sidebar,
+#sidebar ul
+{
+    margin: 0;
+}
+
+.logged .form-horizontal
+{
+    display: none;
+}
+.logged #logout
+{
+    display:block!important;
+}
+
+main
+{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+}
+
+#actions table thead th:first-child,
+#actions table tr td:first-child
+{
+    text-align: right;
+    padding-right:25px;
+}
+
+#editmode
+{
+    display: none;
+}
+
+#button-collapse
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.input-field .switch label
+{
+    margin-left:2.5rem;
+}
+
+ul.side-nav.fixed li.logo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background: transparent;
+}
+.text-center
+{
+    text-align: center;
+}
+.collection
+{
+    border-right:0;
+    border-left:0;
+}
+
+ul.side-nav.fixed li.logo a {
+    display: inline-block;
+    padding: 0;    
+}
+
+.center-card
+{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    perspective: 800px;
+}
+
+.two-side-card
+{
+    position: relative;
+    transform: rotateY(90deg);
+  transition: .4s;
+  transform: rotateY(90deg);
+  transform-style: preserve-3d;
+  opacity: 0;
+}
+
+.two-side-card.active
+{
+    transform: rotateY(0deg);  
+    opacity: 1;  
+}
+
+
+.two-side-card.actions
+{
+    transform: rotateY(180deg);  
+    opacity: 1;  
+}
+
+.two-side-card .back
+{
+    transform: rotateY(180deg);
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.two-side-card .back,
+.two-side-card .front
+{
+    -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+    backface-visibility: hidden;    
+}
+
+.demo-card-wide.mdl-card {
+  width: 512px;  
+}
+
+.demo-card-wide.mdl-card {
+  transform: rotateY(0deg);
+}
+
+.demo-card-wide.mdl-card.edit {
+  transform: rotateY(180deg);
+}
+.demo-card-wide.mdl-card {
+    
+    background: #fff;
+    
+}
+.demo-card-wide > .mdl-card__title {
+  
+  height: 66px;
+}
+.demo-card-wide > .mdl-card__menu {
+  
+}
+.demo-card-wide .mdl-card__title-text small:before
+{
+  content:" a.k.a. ";
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.mail-link{
+    vertical-align: top;
+    line-height: 24px;
+}
+
+.mail-link input
+{
+    vertical-align: top;
+}

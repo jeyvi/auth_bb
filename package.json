@@ -1,0 +1,32 @@
+{
+  "name": "userlist",
+  "version": "1.0.0",
+  "description": "simple backbone app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeyvi/userlist.git"
+  },
+  "author": "jeyvi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeyvi/userlist/issues"
+  },
+  "homepage": "https://github.com/jeyvi/userlist#readme",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.0.5",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.1"
+  }
+}
